@@ -1,0 +1,34 @@
+.EmployeeRow {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.skill-container {
+    display:flex;
+}
+
+.skill {
+    width: 20px;
+    height: 20px;
+    border-radius: 25%;
+    margin: 0 1px;
+    background-color: var(--color-neutral);
+}
+
+.skill.basic {
+    background-color: var(--color-danger);
+}
+
+.skill.advanced {
+    background-color: var(--color-warning);
+}
+
+.skill.expert {
+    background-color: var(--color-success);
+}
+
+.employee-name {
+    margin: 0 20px 0 0;
+    padding: 0;
+}
